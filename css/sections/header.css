@@ -1,0 +1,161 @@
+.header__main {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 10px;   
+     
+}
+
+.header__burger-menu { 
+  display: flex;
+  padding: 10px;
+}
+
+.header__burger-menu-button {
+  display: flex;
+
+  background: none;
+  outline: 0;
+  border: none;
+}
+
+.header__burger-menu:hover {
+  background-color: #808080;  
+  border-radius: 100%;
+}
+  
+
+
+  
+  .header__menu {
+    align-self: center;
+    position: relative;
+    width: 24px;
+    cursor: pointer;  
+  }
+
+  .header__logo {
+    position: relative;
+    display: flex;
+    align-self: center;
+    padding: 10px;
+       
+  }
+
+  .header__logo-img {
+    width: 120px;
+    height: 40px;
+  }
+
+  .header__search {
+    display: flex;    
+    align-self: center;
+    width: 71%;
+    border-radius: 30px;
+
+    color: #808080;
+    background-color: #F5F5F5;
+    padding:10px;
+
+  }
+
+  .header__search-button{
+    display: flex;
+    width: 30px;
+    height: 30px;
+
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+  } 
+
+  .header__search-input {
+    display: flex;
+    width: 100%;
+    
+    background-color: #F5F5F5;
+    border: none;
+    padding: 0 10px;
+  }
+
+  .header__icons {
+    display: flex;
+    align-items: center;
+
+    padding: 20px;
+  }
+
+.header__icons-user {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  padding: 10px;
+  }
+
+
+.header__icons-favourite {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.header__icons-carts {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.header__nav {
+  align-self: center;
+  border-bottom: solid #EEF0F2;
+
+  margin: 0px 50px;
+
+}
+
+.header__nav-menu{
+  display: flex;
+  list-style-type: none;
+  font-weight:1000 ;
+  padding: 10px 0;
+
+}
+
+.sale_menu {
+  color: rgb(204, 0, 8);  
+  text-transform: uppercase;
+
+  padding: 10px;
+  
+}
+
+.header__nav-menu-product{
+  padding: 10px;
+}
+
+.header__breadcrumb {
+  display: flex;
+  padding: 10px 50px;  
+}
+
+.header__breadcrum-nav {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.header__breadcrum-nav-list {
+  display: flex;
+  padding: 10px 10px;
+}
+
+
+
+
+
+
+  
